@@ -1,0 +1,40 @@
+***三要素：
+1)语义
+2)语法
+3)时序
+语义表示要做什么，语法表示要怎么做，时序表示做的顺序
+
+***工作方式：
+   网络协议是网络上所有设备（网络服务器、计算机及交换机、路由器、防火墙等）之间通信规则的集合，它规定了通信时信息必须采用的格式和这些格式的意义。
+   大多数网络都采用分层的体系结构，每一层都建立在它的下层之上，向它的上一层提供一定的服务，而把如何实现这一服务的细节对上一层加以屏蔽。
+   一台设备上的第 n层与另一台设备上的第n层进行通信的规则就是第n层协议。在网络的各层中存在着许多协议，接收方和发送方同层的协议必须一致，否则一方将无法识别另一方发出的信息。网络协议使网络上各种设备能够相互交换信息。
+   常见的协议有：TCP/IP协议、IPX/SPX协议、NetBEUI协议等。
+   ARPANET成功的主要原因是因为它使用了TCP/IP标准网络协议，TCP/IP（Transmission Control Protocol/Internet Protocol）----传输控制协议/互联网协议是Internet采用的一种标准网络协议。
+
+***层次结构
+由于网络节点之间联系的复杂性，在制定协议时，通常把复杂成分分解成一些简单成分，然后再将它们复合起来。最常用的复合技术就是层次方式，网络协议的层次结构如下：
+1）结构中的每一层都规定有明确的服务及接口标准。
+2）把用户的应用程序作为最高层
+3）除了最高层外，中间的每一层都向上一层提供服务，同时又是下一层的用户。
+4）把物理通信线路作为最低层，它使用从最高层传送来的参数，是提供服务的基础。
+
+***层次划分
+它将计算机网络体系结构的通信协议划分为七层，自下而上依次为：
+物理层（Physics Layer）
+数据链路层（Data Link Layer）
+网络层（Network Layer）
+传输层（Transport Layer）
+会话层（Session Layer）
+表示层（Presentation Layer）
+应用层（Application Layer）
+
+***划分
+物理层：以太网 · 调制解调器 · 电力线通信(PLC) · SONET/SDH · G.709 · 光导纤维 · 同轴电缆 · 双绞线等
+
+数据链路层：Wi-Fi(IEEE 802.11) · WiMAX(IEEE 802.16) ·ATM · DTM · 令牌环 · 以太网 ·FDDI · 帧中继 · GPRS · EVDO ·HSPA · HDLC · PPP · L2TP ·PPTP · ISDN·STP 等
+
+网络层协议：IP (IPv4 · IPv6) · ICMP· ICMPv6·IGMP ·IS-IS · IPsec · ARP · RARP等
+
+传输层协议：TCP · UDP · TLS · DCCP · SCTP · RSVP · OSPF 等
+
+应用层协议：DHCP ·DNS · FTP · Gopher · HTTP· IMAP4 · IRC · NNTP · XMPP ·POP3 · SIP · SMTP ·SNMP · SSH ·TELNET · RPC · RTCP · RTP ·RTSP· SDP · SOAP · GTP · STUN · NTP· SSDP · BGP · RIP 等
